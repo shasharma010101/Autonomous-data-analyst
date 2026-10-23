@@ -13,16 +13,22 @@ Built with a modern, warm ivory and amber/yellow aesthetic, the agent features a
 ## 🚀 How to Run the Server & Access Links
 
 ### Option 1: One-Click Local Server (Recommended for College Viva)
-1. Double-click the **[`run.bat`](file:///c:/Users/TEMP/Downloads/AI%20Project/run.bat)** file.
-2. It starts a local web server and automatically opens:
-   👉 **[http://localhost:8000/](http://localhost:8000/)**
-3. The console will display server logs and request details. Keep the console window open while using the application.
+
+**Windows:** double-click **[`run.bat`](run.bat)**.
+
+**Linux / macOS:** run `./run.sh` in a terminal (requires Python 3).
+
+Both launchers start a local web server and automatically open:
+👉 **[http://localhost:8000/](http://localhost:8000/)**
+
+The console displays server logs and request details. Keep the terminal window open while using the application. If port 8000 is already in use, the next free port is chosen automatically.
+
+> **Note for Linux users:** do **not** run `run.bat` through Wine. `run.bat` calls Windows PowerShell, which Wine does not provide (it ships only a no-op stub), so the server silently never starts. Use `run.sh`/`serve.py` instead.
 
 ---
 
 ### Option 2: Direct Offline Browser Access
-- You can directly open **[`index.html`](file:///c:/Users/TEMP/Downloads/AI%20Project/index.html)** in any browser.
-- Direct URL: **`file:///c:/Users/TEMP/Downloads/AI%20Project/index.html`**
+- You can directly open **[`index.html`](index.html)** in any browser.
 - It runs 100% locally with zero setup, zero port configuration, and zero internet required!
 
 ---
@@ -73,6 +79,8 @@ AI Project/
 ├── style.css                    # Warm yellow & white modern styling
 ├── app.js                       # Autonomous AI Agent core engine & canvas chart renderer
 ├── run.bat                      # 1-click launcher for Windows
+├── run.sh                       # 1-click launcher for Linux / macOS
+├── serve.py                     # Cross-platform local web server
 ├── README.md                    # Project documentation & presentation guide
 │
 └── sample_data/                 # Ready-to-use sample CSV files
