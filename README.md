@@ -27,7 +27,7 @@ Built with a modern, warm ivory and amber/yellow aesthetic, the agent features a
 
 ---
 
-## 🎯 Key Features
+## Key Features
 - **Central Chat Interface**: Clean, centered dialogue interface with intelligent query processing.
 - **Attachment Integration**: Easily attach any `.csv` file using the **📎 attachment button** directly next to the input box.
 - **Embedded Sample Datasets**: Includes three complete pre-loaded datasets for instant college demonstrations:
@@ -36,18 +36,13 @@ Built with a modern, warm ivory and amber/yellow aesthetic, the agent features a
   3. `employee_analytics.csv` (Salaries, job roles, ratings, attrition risk)
 - **Autonomous Intent Classifier & Reasoning Engine**:
   - Classifies prompts into intents: *Schema Inspection, Executive Summaries, Top/Bottom N Rankings, Group By Aggregations, Correlation Matrices, Conditional Filtering*.
-  - Displays internal reasoning steps in an **Agent Thought** badge (`⚡`) for transparent AI decision-making.
+  - Displays internal reasoning steps in an **Agent Thought** badge  for transparent AI decision-making.
 - **Self-Contained Canvas Chart Engine**:
   - Automatically draws beautiful Bar Charts and Doughnut/Pie Charts with crisp labels and warm color gradients.
   - 100% self-contained with zero external CDN requirements (ideal for offline classroom presentations).
 - **Interactive Data Tables & Export**:
   - Previews tabular subsets and allows full dataset modal inspection.
   - Built-in "Export as CSV" functionality for filtered queries.
-
----
-
-## 💡 Example Prompts for College Viva / Demo
-Once a dataset is loaded (e.g. `sales_data.csv`), test these natural language prompts:
 
 1. **Executive Summary**:
    > *"Give me an executive summary of this dataset."*
@@ -70,7 +65,7 @@ Once a dataset is loaded (e.g. `sales_data.csv`), test these natural language pr
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 ```
 AI Project/
 │
@@ -85,12 +80,3 @@ AI Project/
     ├── student_performance.csv
     └── employee_analytics.csv
 ```
-
----
-
-## 🎓 College Viva & Evaluation Notes
-- **Problem Statement**: Traditional BI and spreadsheet tools require manual formula writing and pivot table configuration. This project solves that by employing an Autonomous Agent architecture that maps plain English inquiries to analytical operations.
-- **Agent Architecture**:
-  - **Perception Layer**: File ingestion, delimiter detection, and RFC-4180 parsing.
-  - **Cognitive Layer**: Intent classification, tokenization, fuzzy column resolver, statistical aggregation pipeline.
-  - **Action Layer**: Structured narrative generation, canvas rendering, and data table synthesis.
