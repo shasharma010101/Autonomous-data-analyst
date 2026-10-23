@@ -4,7 +4,7 @@ color 0E
 cls
 echo ======================================================================
 echo                 AUTONOMOUS DATA ANALYST - AI AGENT
-echo               Local Web Server & Application Launcher
+echo               Local Web Server ^& Application Launcher
 echo ======================================================================
 echo.
 echo  [*] Starting Autonomous Data Analyst Server...
